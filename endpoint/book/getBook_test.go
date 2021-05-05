@@ -8,7 +8,7 @@ import (
 	"github.com/graniticio/granitic/v2/ws"
 )
 
-func Test_getBook(t *testing.T) {
+func TestGetBook(t *testing.T) {
 	logic := GetBookLogic{}
 	req := ws.Request{}
 	res := ws.Response{}
