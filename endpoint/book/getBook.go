@@ -18,6 +18,8 @@ func (gl *GetBookLogic) Process(ctx context.Context, req *ws.Request, res *ws.Re
 	a := new(Book)
 	a.Name = "My Book"
 	a.Author = "Ram"
-
+	if false {
+		a.Name = "Hari"
+	}
 	res.Body = a
 }
